@@ -1,0 +1,212 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn  {
+
+  from  {
+    opacity: 0;
+  }
+
+  to  {
+    opacity: 1;
+  }
+
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateX(8px);
+  }
+
+  60% {
+    transform: translateX(4px);
+  }
+}
+
+
+.storychapter2  {
+  background: url(chapter2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 100vh;
+
+  object-fit: cover;
+  position: relative;
+}
+
+.explore2  {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+
+  width: 300px;
+  height: 60px;
+
+  color: #050505;
+  letter-spacing: 6px;
+
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-family: "cormorant Gamarond", serif;
+
+  text-decoration: none;
+}
+
+.arrow2  {
+  position: absolute;
+  bottom: 60px;
+  right: 40px;
+
+  width: 250px;
+  height: 60px;
+
+  color: #050505;
+
+  margin: 20px;
+  padding: 20px;
+
+  font-size: 1.75rem;
+  font-weight: 1000;
+  font-family: "cormorant Gamarond", serif;
+
+  text-decoration: none;
+
+  animation: nudge 3s ease-in-out infinite;
+}
+
+.arrowbefore  {
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+
+  width: 250px;
+  height: 60px;
+
+  color: #050505;
+
+  margin: 20px;
+  padding: 20px;
+
+  font-size: 1.75rem;
+  font-weight: 1000;
+  font-family: "cormorant Gamarond", serif;
+
+  text-decoration: none;
+
+  animation: nudge 3s ease-in-out infinite;
+}
+
+.perfumename  {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+
+  color: #6B4E1F;
+
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.perfumename h4  {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+
+  letter-spacing: 10px;
+  text-transform: uppercase;
+
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.perfume  {
+  position: absolute;
+  top: 500px;
+  left: 60px;
+
+  color: #3D342B;
+
+  font-family: "cormorant gamarond", serif;
+  font-weight: 700;
+  
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out 1.5s forwards;
+}
+
+.perfume h3  {
+  font-size: 2.5rem;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+
+  color: #3D342B;
+
+  margin-bottom: 40px;
+
+  
+}
+
+.perfume ul  {
+  display: flex;
+  flex-direction: column;
+  
+  font-size: 1.5rem;
+}
+
+ul li  {
+  list-style: none;
+}
+
+.Ingredients  {
+  position: absolute;
+  right: 40px;
+  top: 1000px;
+
+  color: #3D342B;
+
+  font-size: 1.5rem;
+  font-family: "cormorant gamarond", serif;
+  font-weight: 700;
+
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out 1.5s forwards;
+}
+
+.Ingredients h3  {
+  font-size: 2.5rem;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+
+  color: #3D342B;
+
+  margin-bottom: 40px;
+}
+
+.story  {
+  position: absolute;
+  bottom: 200px;
+  left: 240px;
+
+  color: #050505;
+
+  margin-bottom: 80px;
+  max-width: 550px;
+
+  font-size: 1.75rem;
+  font-family: "cormorant gamarond", serif;
+
+  text-align: center;
+
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out 1.5s forwards;
+
+}

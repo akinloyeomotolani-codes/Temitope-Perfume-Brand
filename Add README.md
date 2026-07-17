@@ -6,7 +6,7 @@ This project focuses on creating a luxury aesthetic while maintaining responsive
 
 ## 🌐 Live Demo
 
-🔗 https://YOUR-USERNAME.github.io/Temitope-Perfume-Brand/
+🔗 https://akinloyeomotolani-codes.github.io/Temitope-Perfume-Brand/
 
 ## ✨ Features
 
@@ -57,7 +57,7 @@ While building this project, I improved my understanding of:
 
 Aspiring Front-End Developer passionate about creating beautiful, responsive, and user-friendly websites.
 
-GitHub: https://github.com/YOUR-USERNAME
+GitHub: https://github.com/akinloyeomotolani-codes
 
 ---
 

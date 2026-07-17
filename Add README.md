@@ -25,9 +25,7 @@ This project focuses on creating a luxury aesthetic while maintaining responsive
 - JavaScript
 
 ## 📸 Preview
-
-> Add a screenshot of the homepage here later.
-
+>![Temitope Homepage](IMG_1084.jpeg)
 
 ## 🎯 What I Learned
 
